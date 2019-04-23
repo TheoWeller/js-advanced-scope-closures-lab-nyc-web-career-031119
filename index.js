@@ -30,9 +30,9 @@ function createDriver() {
       this.id = id;
     }
 
-    idCounter(id) {
+    (function(id) {
       this.id = id++;
-    }()
+    })();
   }
   return Driver;
 }
