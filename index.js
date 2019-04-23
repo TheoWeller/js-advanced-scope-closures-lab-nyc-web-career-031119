@@ -10,9 +10,9 @@ function produceDrivingRange(blockRange) {
     let outOfRange = range - blockRange
 
     if (range <= blockRange) {
-      return console.log('within range by ${inRange}');
+      return `within range by ${inRange}`;
     } else {
-      return console.log('${outOfRange} blocks out of range')
+      return `${outOfRange} blocks out of range`;
     };
   }
 }
