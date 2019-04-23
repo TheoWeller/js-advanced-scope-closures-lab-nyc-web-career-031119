@@ -32,7 +32,7 @@ function createDriver() {
 
     idCounter(id) {
       this.id = id++;
-    }
+    }()
   }
   return Driver;
 }
