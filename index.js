@@ -25,13 +25,13 @@ function produceTipCalculator(percent) {
 
 function createDriver() {
   let id = 0;
-  
+
   class Driver {
     constructor(name, id) {
       this.name = name;
       this.id = id;
     }
-    
+
 
 
   }
