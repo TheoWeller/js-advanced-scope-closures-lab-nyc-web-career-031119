@@ -5,7 +5,7 @@ function produceDrivingRange(blockRange) {
     arg2 = arg2.replace(/\D/g,'')
     arg2 = Number(arg2)
 
-    let range = arg2 - ar1;
+    let range = arg2 - arg1;
     let inRange = blockRange - range;
     let outOfRange = range - blockRange
 
