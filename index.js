@@ -19,5 +19,3 @@ function produceDrivingRange(blockRange) {
 
 // const tenBlockRange = produceDrivingRange(10)
 // const fiveBlockRange = produceDriving(5)
-
-
