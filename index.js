@@ -30,9 +30,9 @@ function createDriver() {
       this.id = id;
     }
 
-    (function(id) {
+    function(id) {
       this.id = id++;
-    })();
+    }
   }
   return Driver;
 }
