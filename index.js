@@ -22,3 +22,15 @@ function produceTipCalculator(percent) {
       return fare * percent;
     }
 }
+
+function createDriver() {
+  class Driver {
+    constructor(name, id) {
+      this.name = name;
+      this.id = id;
+    }
+    idCounter(id) {
+      this.id = id++;
+    }
+  }
+}
