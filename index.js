@@ -29,8 +29,10 @@ function createDriver() {
       this.name = name;
       this.id = id;
     }
+
     idCounter(id) {
       this.id = id++;
     }
   }
+  return Driver;
 }
